@@ -1,0 +1,12 @@
+-> Créez une BdD avec une table "user" avec :
+	user_id
+	user_pseudo
+	user_mail
+
+-> Vous allez créer une page php avec un formulaire avec 1 input pseudo
+
+-> vous allez ensuite créer  pages, une avec l'instance PDO, et une autre avec notre requete sql qui permettra de récupérer les infos dans la table user
+
+->Vouz aller devoir afficher, sur la même page du formulaire, le pseudo et le mail de la table user
+
+Vous aller avoir besoin des "include", mais aussi ( peut être ) d'une fonction php: header().
