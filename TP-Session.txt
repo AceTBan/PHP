@@ -1,0 +1,26 @@
+Vous avez donc maintenant un formulaire et l'affichage de tout nos utilisateurs sur la page d'accueil.
+
+On va donc créer une page de connexion où, tout les utilisateurs non connectés, seront redirigés.
+
+Pour cet exercice on va créer une nouvelle table dans nose base de données:
+	par exemple users_two, appelez la comme vous le souhaitez c'est seulement pour l'exercice, et dedans on y mettra:
+
+	- Un id
+	- Un pseudo
+	- Un mail
+	- Un password
+
+Une seul ligne suffira pour cet exerci !
+
+-> Vous allez donc créer une page de connexion, avec un formulaire qui aura 2 inputs:
+
+	- un pseudo
+	- un password
+
+-> Au moment ou vous utiliserez le formulaire, vous récupèrerez le pseudo et le mot de passe depuis la base de donées, vous vérifirez si le mot de passe entré dans le formulaire correspond bien à celui en base de donnée, et si c'est le cas, vous créerez la session grace à notre superglobale "$_SESSION", avec les données récupérées.
+
+Vous allez devoir utiliser la superglobale $_SESSION pour gérer les accès, et vous aller devoir utiliser une autre fonction PHP: header();
+
+-> Pour finir vous allez devoir créer un bouton déconnexion sur la page d'accueil qui lancera une fonction qui détruira la session 
+
+	
