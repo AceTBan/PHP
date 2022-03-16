@@ -1,0 +1,1 @@
+{"version":1,"defects":{"UserTest::testAvecLeTryCatch":3},"times":{"UserTest::testConcatenation":0,"UserTest::changeConcate":0.216,"UserTest::testAvecLeTryCatch":0.039,"MockRolesTest::testMockRolesAreReturned":0.386}}
